@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* css document */
+* {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  font-weight:normal;
+}
+
+button{
+  background-color: #fed136;
+  color:#f8f9fa;
+  border: none;
+  padding:10px 15px;
+  display:flex;
+  margin:auto;
+  font-size: 10px;
+
+  ;
+
+
+}
+
+html {
+  background-color:#212529;
+  
+}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  padding:0 20px;
+  position:sticky;
+  top:0;
+  box-shadow:1px 1px 3px gray;
+  background-color:#212529;
+  baseline-shift: ;
+}
+
+header nav ul {
+  display:flex;
+  justify-content:space-between;
+  list-style-type:none;
+  font-family: 'bebas neue';
+}
+
+header nav a {
+  text-decoration:none;
+  display:block;
+  padding:25px 20px;
+  color:#f8f9fa;
+  font-size:16px;
+}
+
+header nav a:hover {
+  color:#fed136;
+}
+
+h1 {
+  color:#fed136;
+  text-transform:uppercase;
+  font-size:20px;
+   margin-top:20px;
+  font-family: 'bebas neue';
+}
+
+body {
+  background-color: #f8f9fa;
+  max-width: auto;
+  align-items: center;
+}
+
+
+#index-header-background {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+h2{
+  text-align: center;
+  padding: 5px;
+  
+}
+#indexservices h3{
+  font-size: 22px;
+  text-align: center;
+  font-weight: bolder
+}
+
+#indexservices p{
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 14px;
+}
+
+#welcome{
+  font-style: italic;
+  color:#f8f9fa;
+  
+}
+
+#meetyou{
+  font-size: 30px;
+  font-stretch condensed;
+  font-style: bold ;
+  color: #f8f9fa;
+}
+
+section:nth-child(3){
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.indexsvcdescrip h3{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bolder
+}
+
+.indexsvcdescrip p{
+  font-size: 12px;
+  text-align: center;
+  font-weight: light
+}
+
+#indexheaderbackground{
+   background-image: url(../images/header-bg.jpg);
+   background-size: cover;
+}
+
+
+footer{
+  font-size: 12px;
+  padding:20px;
+}
