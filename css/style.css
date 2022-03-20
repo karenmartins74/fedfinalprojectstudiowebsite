@@ -7,23 +7,8 @@
   font-weight:normal;
 }
 
-button{
-  background-color: #fed136;
-  color:#f8f9fa;
-  border: none;
-  padding:10px 15px;
-  display:flex;
-  margin:auto;
-  font-size: 10px;
-
-  ;
-
-
-}
-
 html {
   background-color:#212529;
-  
 }
 
 header {
@@ -68,18 +53,25 @@ body {
   background-color: #f8f9fa;
   max-width: auto;
   align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-
-#index-header-background {
-  padding-top: 50px;
-  padding-bottom: 50px;
-
-}
 h2{
   text-align: center;
   padding: 5px;
-  
+  }
+
+/*start index page styling*/
+
+button{
+  background-color: #fed136;
+  color:#f8f9fa;
+  border: none;
+  padding:10px 15px;
+  display:flex;
+  margin:auto;
+  font-size: 10px;
 }
 #indexservices h3{
   font-size: 22px;
@@ -98,7 +90,6 @@ h2{
 #welcome{
   font-style: italic;
   color:#f8f9fa;
-  
 }
 
 #meetyou{
@@ -109,11 +100,25 @@ h2{
 }
 
 section:nth-child(3){
+  max-width: 960px;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
-  flex: 1;
-  padding: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
+.indexsvcdescrip{
+  flex: 1;
+  padding: 40px;
+  padding-bottom: 20px;
+}
+
+.indexsvcdescrip img{
+  flex: 3;
+  padding: 40px;
+
+}
 .indexsvcdescrip h3{
   font-size: 18px;
   text-align: center;
@@ -131,8 +136,18 @@ section:nth-child(3){
    background-size: cover;
 }
 
+/*start index page styling*/
+
+/*start about page styling*/
+
 
 footer{
   font-size: 12px;
   padding:20px;
+  padding-top: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
 }
