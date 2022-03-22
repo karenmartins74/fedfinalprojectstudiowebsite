@@ -10,39 +10,60 @@
 
 <body>
 
-<header>
-	<h1>Studio</h1>
-	<nav>
-		<ul>
-			<li> <a href="index.html">SERVICES</a> </li>
-			<li> <a href="portfolio.html">PORTFOLIO</a> </li>
-			<li> <a href="about.html">ABOUT</a> </li>
-			<li> <a href="team.html">TEAM</a></li>
-			<li> <a href="contact.html">CONTACT</a> </li>
-		</ul>
-	</nav>
-</header>
-
 <main>
-	<div>
+	<header>
+		<h1>Studio</h1>
+		<nav>
+			<ul>
+				<li> <a href="index.html">SERVICES</a> </li>
+				<li> <a href="portfolio.html">PORTFOLIO</a> </li>
+				<li> <a href="about.html">ABOUT</a> </li>
+				<li> <a href="team.html">TEAM</a></li>
+				<li> <a href="contact.html">CONTACT</a> </li>
+			</ul>
+		</nav>
+	</header>
+
+</main>
+
+<section id="contactus">
+	<div class="container">
+		<div style="text-align:center; color:#f8f9fa">
 		<h2>CONTACT US</h2>
 		<p>Lorem ipsum dolor sit amet consectetur.</p>
 	</div>
 
-	<div>
-		<p>Your Name</p>
-		<p>Your Email</p>
-		<p>Your Phone</p>
-		<p>Your Message</p>
+
+	<div class="row">
+    <div class="column">
+		<p><input type="text" id="fullname" name="fullname" placeholder="Your Name"></p>
+		<p><input type="text" id="youremail" name="youremail" placeholder="Your Email"></p>
+		<p><input type="text" id="yourphone" name="yourphone" placeholder="Your Phone"></p>
+	</div>
+
+	<div class="column">
+		<textarea id="yourmessage" name="yourmessage" placeholder="Your message.." style="height:170px"></textarea>
+	</div>
+	
 		<button type="button"name="button">Send Message</button>
 	</div>
 
+	
+</section>
 
-</main>
 
 <footer>
-Copyright © Your Website 2022
-Privacy Policy Terms of Use
+	<div>
+		<p>Copyright © Your Website 2022</p>
+	</div>
+
+	<div>
+		<img src="images/1social-icons.png" alt="socialmediaicons">
+	</div>
+
+	<div class="footeryellowtext">
+		<p>Privacy Policy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms of Use</p>
+	</div>
 </footer>
 
 </body>
