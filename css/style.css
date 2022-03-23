@@ -95,8 +95,22 @@ border-top-style: ridge;
 border-top-color: grey;
 }
 
+footer p{
+  font-size: 10px;
+}
 .footeryellowtext{
   color:#fed136 ;
+}
+
+button{
+  background-color: #fed136;
+  color:#f8f9fa;
+  border: none;
+  padding:10px 15px;
+  display:flex;
+  margin:auto;
+  font-size: 14px;
+  vertical-align: center;
 }
 
 
@@ -114,20 +128,9 @@ border-top-color: grey;
   display:flex;
   justify-content:space-between;
   padding:0 20px;
-  position:sticky;
+  position:relative;
   top:0;
   background-color: transparent;
-}
-
-button{
-  background-color: #fed136;
-  color:#f8f9fa;
-  border: none;
-  padding:10px 15px;
-  display:flex;
-  margin:auto;
-  font-size: 14px;
-  vertical-align: center;
 }
 
 #indexservices{
@@ -194,9 +197,26 @@ font-style: italic;
 text-align: center;
 padding-bottom: 35px;
 }
+
 /*END PORTFOLIO page styling*/
 
 /*START ABOUT page styling*/
+
+.aboutsections{
+  max-width:500px;
+  width:80%;
+  margin:0 auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutsections div{
+  flex: 1;
+}
+
+
 
 
 
@@ -247,7 +267,7 @@ padding-bottom: 35px;
   box-sizing: border-box;
 }
 
-  input[type=text], select, textarea {
+  input[type=text], textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -263,11 +283,7 @@ padding-bottom: 35px;
   padding: 20px;
   font-size: 12px;
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 
 /*END CONTACT US page styling*/
