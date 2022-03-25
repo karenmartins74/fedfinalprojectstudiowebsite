@@ -6,6 +6,9 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Srisakdi:400,700" rel="stylesheet">
 
 <link rel="stylesheet" href="css/style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -31,7 +34,7 @@
 </section>
 
 
-<section class="aboutsections">
+<section class="aboutsections1">
 	<div>
 		<h3>2009-2011</h3>
 		<h3>Our Humble Beginnings</h3>
@@ -40,37 +43,38 @@
 		<img src="images/about/1.jpg" align="right" align="center"alt="aboutpic1">
 </section>
 
-<section class="aboutsections">
-	<div>
+<section class="aboutsections2">
 		<img src="images/about/2.jpg" align="left" align="center"alt="about2pic">
+	<div>
 		<h3>March 2011</h3>
 		<h3>An Agency is Born</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
 	</div>
 </section>
 
-<section class="aboutsections">
-	<div>
-		<img src="images/about/3.jpg" align="right" align="center"alt="about3pic">
+<section class="aboutsections1">
+		<div>
 		<h3>December 2012</h3>
 		<h3>Transition to Full Service</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
 	</div>
+	<img src="images/about/3.jpg" align="right" align="center"alt="about3pic">
 </section>
 
-<section class="aboutsections">
-	<div>
+<section class="aboutsections2">
 		<img src="images/about/4.jpg" align="left" align="center"alt="about4pic">
+	<div>	
 		<h3>July 2014</h3>
 		<h3>Phase Two Expansion</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
 	</div>
 </section>
 
-<section>
-	<div>
+<section class="yellow-circle">
+    <div >
 		<h3>Be Part Of Our Story!</h3>
 	</div>
+
 </section>
 
 <footer>
@@ -86,6 +90,25 @@
 		<p>Privacy Policy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms of Use</p>
 	</div>
 </footer>
+
+<script>
+
+//mouse hover event
+
+$(".aboutsections1 div").hover(function(){
+  $(this).css("color", "#fed136");
+  }, function(){
+  $(this).css("color", "#212529");
+  })
+
+$(".aboutsections2 div").hover(function(){
+  $(this).css("color", "#fed136");
+  }, function(){
+  $(this).css("color", "#212529");
+
+}) //end mouseover event
+
+</script>
 
 </body>
 </html>

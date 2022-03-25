@@ -8,6 +8,8 @@
 
 <link rel="stylesheet" href="css/style.css">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -52,7 +54,7 @@
 
 	<div>
 		<img src="images/security-icon.png" alt="securityicon">
-		<h3 >Web Security</h3>
+		<h3>Web Security</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
 	</div>
 
@@ -71,6 +73,21 @@
 		<p>Privacy Policy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms of Use</p>
 	</div>
 </footer>
+
+<script>
+
+//mouse hover event
+$("#indexservices div").hover(function(){
+  $(this).css("color", "#fed136");
+  }, function(){
+  $(this).css("color", "#212529");
+}) //end mouse hover event
+
+
+</script>
+
+
+
 
 
 </body>
